@@ -1,101 +1,76 @@
-baseURL = "https://www.evolarium.ca"
 languageCode = "en-us"
 title = "Evolarium"
-theme = "blackburn"
-author = "Jordan Patterson"
-copyright = "&copy; 2017. All rights reserved."
-canonifyurls = true
-paginate = 10
-
-[indexes]
-tag = "tags"
-topic = "topics"
+baseurl = "https://www.evolarium.ca/"
+theme = "prologue"
 
 [params]
-# Shown in the home page
-# subtitle = "A Hugo Theme"
-brand = "Evolarium"
-# googleAnalytics = "Your Google Analytics tracking ID"
-# disqus = "Your Disqus shortname"
-# CSS name for highlight.js
-highlightjs = "androidstudio"
-highlightjs_extra_languages = ["yaml"]
-dateFormat = "02 Jan 2006, 15:04"
-# Include any custom CSS and/or JS files
-# (relative to /static folder)
-# custom_css = ["css/my.css"]
-# custom_js = ["js/my.js"]
+  name = "Jordan Patterson"
+  description = "Computer Analyst"
+  copyright = "Untitled."
 
-[menu]
-# Shown in the side menu.
-[[menu.main]]
-name = "Home"
-pre = "<i class='fa fa-home fa-fw'></i>"
-weight = 1
-identifier = "home"
-url = "/"
-[[menu.main]]
-name = "Posts"
-pre = "<i class='fa fa-list fa-fw'></i>"
-weight = 2
-identifier = "post"
-url = "/post/"
-[[menu.main]]
-name = "About"
-pre = "<i class='fa fa-user fa-fw'></i>"
-weight = 3
-identifier = "about"
-url = "/about/"
-[[menu.main]]
-name = "Contact"
-pre = "<i class='fa fa-phone fa-fw'></i>"
-weight = 4
-url = "/contact/"
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#evolarium"
 
-[social]
-# Link your social networking accounts to the side menu
-# by entering your username or ID.
+#[[params.social]]
+#  medium = "facebook"
+#  icon = "facebook"
+#  link = "#"
+#
+#[[params.social]]
+#  medium = "github"
+#  icon = "github"
+#  link = "#"
+#
+#[[params.social]]
+#  medium = "dribbble"
+#  icon = "dribbble"
+#  link = "#"
+#
+#[[params.social]]
+#  medium = "email"
+#  icon = "envelope"
+#  link = "#"
 
-# SNS microblogging
-# twitter = "*"
-# gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-# facebook = "*"
-# googleplus = "*"
-# weibo = "*"
-# tumblr = "*"
+# Portfolio column one
 
-# SNS photo/video sharing
-# instagram = "*"
-# flickr = "*"
-# photo500px = "*"
-# pinterest = "*"
-# youtube = "*"
-# vimeo = "*"
-# vine = "*"
-# slideshare = "*"
-
-# SNS career oriented
-# linkedin = "*"
-# xing = "*"
-
-# SNS news
-# reddit = "*"
-# hackernews = "*"
-
-# Techie
-# github = "yoshiharuyamashita"
-# gitlab = "*"
-# bitbucket = "*"
-# stackoverflow = "*"
-# serverfault = "*"
-
-# Gaming
-# steam = "*"
-# mobygames = "*"
-
-# Music
-# lastfm = "*"
-# discogs = "*"
-
-# Other
-# keybase = "*"
+#[[params.portfolio1]]
+#  title = "Ipsum Feugiat"
+#  alt = ""
+#  source = "img/pic02.jpg"
+#  url = "#"
+#
+#[[params.portfolio1]]
+#  title = "Rhoncus Semper"
+#  alt = ""
+#  source = "img/pic03.jpg"
+#  url = "#"
+#
+## Portfolio column two
+#
+#[[params.portfolio2]]
+#  title = "Magna Nullam"
+#  alt = ""
+#  source = "img/pic04.jpg"
+#  url = "#"
+#
+#[[params.portfolio2]]
+#  title = "Natoque Vitae"
+#  alt = ""
+#  source = "img/pic05.jpg"
+#  url = "#"
+#
+## Portfolio column 3
+#
+#[[params.portfolio3]]
+#  title = "Dolor Penatibus"
+#  alt = ""
+#  source = "img/pic06.jpg"
+#  url = "#"
+#
+#[[params.portfolio3]]
+#  title = "Orci Convallis"
+#  alt = ""
+#  source = "img/pic07.jpg"
+#  url = "#"
