@@ -15,7 +15,7 @@ theme = "hugo-minimalist-theme"
     location = "Canada"
     # Link custom assets relative to /static
     avatar = "images/profile.jpg"
-    header_background = ""
+    header_background = "images/circuit.jpg"
     header_title = "Evolarium"
     copyright = "2017"
     custom_css = []
