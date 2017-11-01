@@ -16,7 +16,7 @@ theme = "hugo-minimalist-theme"
     # Link custom assets relative to /static
     avatar = "images/profile.jpg"
     header_background = "images/circuit.jpg"
-    header_title = "Evolarium"
+    header_title = ""
     copyright = "2017"
     custom_css = []
     custom_js  = []
