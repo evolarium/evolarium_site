@@ -530,7 +530,7 @@ hr {
 .site-header h2 .logo {
   margin: 0;
   width: auto;
-  height: 100px;
+  height: 148px;
   display: block;
   position: absolute;
   top: 50%;
@@ -739,7 +739,7 @@ body.post-template .site-header h2 .logo {
     width: 100%; }
 
   .site-header div {
-      height: 400px;
+      height: 200px;
   }
 
   .site-header h2 {
