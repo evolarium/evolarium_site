@@ -10,3 +10,4 @@
   Link: <{{ "js/vendor/modernizr-2.8.0.min.js" | relURL }}>; rel=preload; as=style
   Link: <{{ "images/profile.jpg" | relURL }}>; rel=preload; as=image
   Link: <{{ "images/circuit.jpg" | relURL }}>; rel=preload; as=image
+  Link: <{{ "font/fontello.woff" | relURL }}>; rel=preload; as=font
