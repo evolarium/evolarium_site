@@ -7,6 +7,5 @@
   Link: <{{ "js/plugins.js" | relURL }}>; rel=preload; as=script
   Link: <{{ "css/styles.css" | relURL }}>; rel=preload; as=style
   Link: <{{ "css/highlightjs/monokai.css" | relURL }}>; rel=preload; as=style
-  Link: <{{ "js/vendor/modernizr-2.8.0.min.js" | relURL }}>; rel=preload; as=style
   Link: <{{ "images/profile.jpg" | relURL }}>; rel=preload; as=image
   Link: <{{ "images/circuit.jpg" | relURL }}>; rel=preload; as=image
