@@ -8,7 +8,6 @@ paginate = 10
 # Enable gogle analytics by entering your tracking code
 # googleAnalytics = ""
 theme = "hugo-minimalist-theme"
-disableAliases = true
 
 [params]
     site_author = "Jordan Patterson"
@@ -37,23 +36,3 @@ disableAliases = true
     instagram = ""
     github    = ""
     gplus     = ""
-
-[outputs]
-home = [ "HTML", "RSS", "REDIR", "HEADERS" ]
-
-[mediaTypes]
-[mediaTypes."text/netlify"]
-suffix = ""
-delimiter = ""
-
-[outputFormats]
-[outputFormats.REDIR]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-[outputFormats.HEADERS]
-mediatype = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
